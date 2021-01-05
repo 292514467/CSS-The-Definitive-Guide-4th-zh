@@ -357,7 +357,7 @@ The core reason for the “flash” behavior is pretty much the same now as it w
 // T5-1
 
 In addition to the combination of `url()` and `format()`, you can also supply a font family name (or several names) in case the font is already locally available on the user’s machine, using the aptly-named `local()`:
-
+>除了`url()`和 `format()`，也可以使用`local()`提供一个字体族名称，以防用户可以从本地机器上获取这种字体。
 ```css
 @font-face {
   font-family: "SwitzeraADF";
